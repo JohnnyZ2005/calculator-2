@@ -36,10 +36,10 @@ function appendNumber(value) {
 } 
 
 // append point 
-// function appendPoint() {
-//     if (currentOperation.textContent === '') currentOperation.textContent = '0'
-//     if (currentOperation.textContent.includes('.')) return currentOperation.textContent += '.'
-// }
+function appendPoint() {
+    if (currentOperation.textContent === '') currentOperation.textContent = '0'
+    if (currentOperation.textContent.includes('')) return currentOperation.textContent += '.'
+}
 
 // updating the dom when operator button is clicked 
 function updateDomOnOperatorClick(operator) {
